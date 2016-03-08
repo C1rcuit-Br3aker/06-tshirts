@@ -11,15 +11,21 @@
 
 .outer-container {
   display: flex;
-  padding: 2rem;
+  padding: $gutter;
 }
 
 .container {
-  max-width: 90%;
   display: flex;
+  max-width: 90%;
 }
 
 .row {
   display: flex;
 
+}
+
+.grid-item {
+  flex-grow: 1;
+  margin: $gutter;
+  border: 3px solid $brand-color;
 }
