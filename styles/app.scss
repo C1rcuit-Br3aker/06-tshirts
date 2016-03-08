@@ -16,16 +16,16 @@
 
 .container {
   display: flex;
-  max-width: 90%;
 }
 
 .row {
   display: flex;
-
+  flex-wrap: wrap;
 }
 
 .grid-item {
   flex-grow: 1;
+  max-width: 30%;
   margin: $gutter;
   border: 3px solid $brand-color;
 }
