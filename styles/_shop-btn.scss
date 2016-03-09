@@ -4,11 +4,17 @@
   flex-grow: 1;
   align-items: center;
   justify-content: center;
-  border: 2px solid $brand-color;
+  height: 3rem;
+  border-top: $brand-border $brand-primary;
+  border-right: $brand-border $brand-primary;
   font-size: 1.4rem;
-}
 
-.dropdown__options {
-  display: none;
-  list-style-type: none;
+  &:last-child {
+    border-right: 0;
+  }
+
+  &:hover {
+    background: $brand-primary;
+    color: $brand-white;
+  }
 }
