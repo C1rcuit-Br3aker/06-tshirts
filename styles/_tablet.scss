@@ -7,8 +7,14 @@ figure {
   max-width: $max-width;
 }
 
+.shop-item__pic {
+  max-height: 12rem;
+
+}
+
 .shop-item__info {
   vertical-align: middle;
+  flex-grow: 1;
 }
 
 .shop-item__btns {
@@ -20,8 +26,19 @@ figure {
   border-top: 0;
   border-right: 0;
   border-bottom: $brand-border;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+  &:hover {
+    .dropdown__options {
+      top: 85%;
+      left: -480%;
+      transform: rotate(-90deg);
+    }
+  }
 }
 
-.shop-btn:last-child {
-  border-bottom: 0;
+.dropdown__options-item {
+
 }
