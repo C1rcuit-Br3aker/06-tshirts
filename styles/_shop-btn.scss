@@ -1,13 +1,8 @@
 .shop-btn {
-  display: flex;
-  flex-direction: row;
-  flex-grow: 1;
-  align-items: center;
-  justify-content: center;
-  height: 3rem;
+  flex: 1;
+  padding: 1rem;
   border-top: $brand-border $brand-primary;
   border-right: $brand-border $brand-primary;
-  font-size: 1.4rem;
 
   &:last-child {
     border-right: 0;
@@ -16,5 +11,10 @@
   &:hover {
     background: $brand-primary;
     color: $brand-white;
+  }
+
+  &:hover .dropdown__options-item {
+    display: block;
+    background: $brand-white;
   }
 }
