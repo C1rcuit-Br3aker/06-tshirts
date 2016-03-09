@@ -1,0 +1,27 @@
+figure {
+  display: flex;
+  flex-grow: 1;
+}
+
+.grid-item {
+  max-width: $max-width;
+}
+
+.shop-item__info {
+  vertical-align: middle;
+}
+
+.shop-item__btns {
+  flex-direction: column;
+  border-left: $brand-border;
+}
+
+.shop-btn {
+  border-top: 0;
+  border-right: 0;
+  border-bottom: $brand-border;
+}
+
+.shop-btn:last-child {
+  border-bottom: 0;
+}
