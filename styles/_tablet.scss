@@ -13,7 +13,6 @@ figure {
 }
 
 .shop-item__info {
-  vertical-align: middle;
   flex-grow: 1;
 }
 
@@ -30,15 +29,22 @@ figure {
   &:last-child {
     border-bottom: 0;
   }
+
   &:hover {
     .dropdown__options {
-      top: 85%;
-      left: -480%;
-      transform: rotate(-90deg);
+      display: flex;
+      right: 100%;
+      flex-direction: row-reverse;
+      transform: translate(-125%, 95%);
     }
   }
 }
 
 .dropdown__options-item {
+  border-top: $brand-border $brand-primary ;
+  border-right: 0;
+  border-bottom: $brand-border $brand-primary;
+  border-left: $brand-border $brand-primary;
+
 
 }
