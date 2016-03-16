@@ -1,0 +1,25 @@
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+.shop-item__shirt {
+  margin: $gutter;
+}
+
+.shop-item__pic {
+  max-width: 100%;
+}
+
+.shop-item__info {
+  padding: $gutter;
+}
+
+.shop-item__btns {
+  display: flex;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}

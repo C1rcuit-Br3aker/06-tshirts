@@ -1,0 +1,19 @@
+.shop-btn {
+  flex: 1;
+  padding: 1rem;
+  border-top: $brand-border $brand-primary;
+  border-right: $brand-border $brand-primary;
+
+  &:last-child {
+    border-right: 0;
+  }
+
+  &:hover {
+    .dropdown__options-item {
+      display: block;
+      background: $brand-white;
+    }
+    background: $brand-primary;
+    color: $brand-white;
+  }
+}

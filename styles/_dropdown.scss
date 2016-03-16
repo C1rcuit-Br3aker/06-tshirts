@@ -1,0 +1,43 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown__options {
+  position: absolute;
+  bottom: 104%;
+  left: 15%;
+  transform: translate(-45%);
+  color: $brand-primary;
+  list-style: none;
+}
+
+.dropdown__options-item {
+  display: none;
+  padding: 1rem;
+  border-top: $brand-border $brand-primary;
+  border-right: $brand-border $brand-primary;
+  border-left: $brand-border $brand-primary;
+  color: $brand-primary;
+
+  &:hover {
+    background: $brand-white;
+    font-size: 1.3rem;
+    cursor: default;
+  }
+}
+
+.shirt-color--pink {
+  color: $brand-pink;
+}
+
+.shirt-color--blue {
+  color: $brand-blue;
+}
+
+.shirt-color--yellow {
+  color: $brand-yellow;
+}
+
+.shirt-color--green {
+  color: $brand-green;
+}

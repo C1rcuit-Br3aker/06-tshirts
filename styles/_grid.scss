@@ -1,0 +1,9 @@
+.grid-item {
+  flex-grow: 1;
+  width: 20rem;
+  min-width: 20rem;
+  max-width: 28%;
+  margin: $gutter;
+  border: $brand-border $brand-primary;
+  color: $brand-primary;
+}
