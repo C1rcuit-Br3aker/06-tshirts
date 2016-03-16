@@ -4,6 +4,7 @@ figure {
 }
 
 .grid-item {
+  width: 25rem;
   max-width: $max-width;
 }
 
@@ -41,6 +42,7 @@ figure {
 }
 
 .dropdown__options-item {
+  padding: 1rem;
   border-top: $brand-border $brand-primary ;
   border-right: 0;
   border-bottom: $brand-border $brand-primary;
